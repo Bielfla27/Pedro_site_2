@@ -294,19 +294,6 @@
      }
  }
  
- @media (max-width: 768px) {
-     .commitment-container {
-         flex-direction: column;
-     }
-     .features {
-         flex-direction: column;
-     }
-     .commitment-text,
-     .commitment-image {
-         flex: 1 1 100%;
-     }
- }
- 
  @media (max-width: 480px) {
      .commitment-text h2 {
          font-size: 24px;
@@ -565,4 +552,28 @@
      font-size: 14px;
      text-decoration: none;
      padding-top: 10px;
+ }
+ 
+ @media (max-width: 768px) {
+     .commitment-image {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+     .commitment-image img {
+         width: 100%;
+         max-width: 100%;
+         aspect-ratio: 12 / 12;
+         object-fit: cover;
+         border-radius: 10px;
+     }
+     .quote-box {
+         width: 100%;
+         margin-top: 15px;
+         text-align: center;
+         font-size: 14px;
+         padding: 20px;
+         box-sizing: border-box;
+     }
  }
