@@ -184,7 +184,7 @@
  }
  
  .commitment-section {
-     padding: 80px 100px;
+     padding: 30px 40px;
      background-color: #fefefe;
  }
  
@@ -286,9 +286,6 @@
  /* Responsivo */
  
  @media (max-width: 1024px) {
-     .commitment-section {
-         padding: 60px 50px;
-     }
      .commitment-text h2 {
          font-size: 30px;
      }
@@ -438,7 +435,6 @@
  }
  
  .commitment-section {
-     padding: 80px 100px;
      background-color: rgba(236, 226, 209, 0.3);
      /* Bege claro com transparência */
  }
